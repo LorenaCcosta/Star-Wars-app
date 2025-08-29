@@ -23,11 +23,12 @@ export default function RegisterScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#fff" },
   img: { 
-    width: "100%",
+    width: "88%",
     height: "50%",
     justifyContent: "center",
     resizeMode: "contain",
     marginTop: -50,
     marginBottom: -98,
+    marginLeft: 24
   }
 });

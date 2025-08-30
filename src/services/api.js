@@ -1,4 +1,3 @@
-// No api.js
 export const fetchAllCharacters = async () => {
   const res = await fetch("https://akabab.github.io/starwars-api/api/all.json");
   if (!res.ok) throw new Error("Erro de rede");
